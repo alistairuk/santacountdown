@@ -122,7 +122,7 @@ void loop() {
   }
   // If it is before Christmas day create the countdown message
   else {
-    lineBuffer = String(sleeps) + " sleeps unitl Santa   ";
+    lineBuffer = String(sleeps) + " sleeps until Santa   ";
   }
 
   // Calculate the horisontal offset based on the microcontrolelr run time
